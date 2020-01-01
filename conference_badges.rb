@@ -10,6 +10,6 @@ end
 
 def assign_rooms(array_of_names)
   array_of_names.each_with_index.collect do |name, index| 
-    print "Hello, #{name}! You'll be assigned to room #{index + 1}!"
+    "Hello, #{name}! You'll be assigned to room #{index + 1}!"
   end
 end
